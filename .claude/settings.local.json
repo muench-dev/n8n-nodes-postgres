@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npx n8n-node:*)",
+      "Bash(node -e \"import\\('@n8n/node-cli/eslint'\\).then\\(m => console.log\\(Object.keys\\(m\\)\\)\\)\")",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const pgp = require\\('pg-promise'\\); console.log\\(Object.keys\\(pgp\\)\\)\")",
+      "Bash(node:*)",
+      "Bash(echo \"EXIT:$?\")"
+    ]
+  }
+}
