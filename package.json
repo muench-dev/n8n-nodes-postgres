@@ -1,6 +1,6 @@
 {
 	"name": "@muench-dev/n8n-nodes-postgres",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "n8n community node for extended Postgres operations",
 	"license": "MIT",
 	"homepage": "",
