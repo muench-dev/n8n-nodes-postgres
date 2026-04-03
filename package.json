@@ -7,6 +7,7 @@
 	"keywords": [
 		"n8n-community-node-package"
 	],
+	"main": "index.js",
 	"author": {
 		"name": "Christian Münch",
 		"email": "christian@muench.dev"
