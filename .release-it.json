@@ -2,6 +2,7 @@
 	"git": {
 		"tagName": "v${version}"
 	},
+	"npm": false,
 	"github": {
 		"release": true
 	}
