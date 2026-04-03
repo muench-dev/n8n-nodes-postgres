@@ -16,13 +16,14 @@
 		"url": "https://github.com/muench-dev/n8n-nodes-postgres.git"
 	},
 	"scripts": {
-		"build": "n8n-node build",
+		"build": "npx n8n-node build",
 		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
+		"dev": "npx n8n-node dev",
+		"lint": "npx n8n-node lint",
+		"lint:fix": "npx n8n-node lint --fix",
 		"test": "vitest run"
 	},
+	"packageManager": "pnpm@9.14.2",
 	"files": [
 		"dist"
 	],
