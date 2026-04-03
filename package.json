@@ -27,6 +27,11 @@
 	"files": [
 		"dist"
 	],
+	"publishConfig": {
+		"access": "public",
+		"provenance": true,
+		"registry": "https://registry.npmjs.org/"
+	},
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [],
