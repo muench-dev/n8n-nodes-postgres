@@ -3,7 +3,7 @@
 	"version": "0.2.11",
 	"description": "n8n community node for extended Postgres operations",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/muench-dev/n8n-nodes-postgres#readme",
 	"keywords": [
 		"n8n-community-node-package"
 	],
@@ -52,5 +52,8 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"bugs": {
+		"url": "https://github.com/muench-dev/n8n-nodes-postgres/issues"
 	}
 }
