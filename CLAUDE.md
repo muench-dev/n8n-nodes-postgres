@@ -20,7 +20,7 @@ All commands delegate to `n8n-node` CLI (installed as `@n8n/node-cli` dev depend
 
 This repo is a **scaffold** targeting a Postgres community node. `nodes/Example/Example.node.ts` is the starter template and has not yet been renamed/implemented. When building the real node:
 
-1. Replace `nodes/Example/` with `nodes/Postgres/`
-2. Update `package.json` → `n8n.nodes` to point at `dist/nodes/Postgres/Postgres.node.js`
+1. Replace `nodes/Example/` with `nodes/PostgresExtended/`
+2. Update `package.json` → `n8n.nodes` to point at `dist/nodes/PostgresExtended/PostgresExtended.node.js`
 3. Add credential entry to `n8n.credentials` in `package.json` if needed
 4. Update `CHANGELOG.md` when bumping the package version

@@ -37,7 +37,7 @@
 		"n8nNodesApiVersion": 1,
 		"credentials": [],
 		"nodes": [
-			"dist/nodes/Postgres/PostgresExtended.node.js"
+			"dist/nodes/PostgresExtended/PostgresExtended.node.js"
 		]
 	},
 	"dependencies": {
